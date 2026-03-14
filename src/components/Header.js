@@ -21,10 +21,10 @@ const Header = () => {
             <div className="container mx-auto px-4 sm:px-8">
                 <div className="flex items-center justify-between h-20">
                     <div className="flex-shrink-0 flex flex-col items-start">
-                        <a href="/" className="group flex items-center space-x-3" aria-label="Home">
-                            <img src="/stc5.png" alt="STC Logo" className="block h-19 w-12  shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
+                        <a href="/" className="group flex items-center space-x-3" aria-label="STC Sai Tirumala Concrete – Home">
+                            <img src="/stc5.png" alt="STC Sai Tirumala Concrete logo" className="block h-19 w-12 shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6" />
                             <div>
-                                <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-wide drop-shadow-lg">STC<span className="text-orange-500">.</span></h1>
+                                <span className="block text-2xl md:text-3xl font-extrabold text-slate-900 tracking-wide drop-shadow-lg">STC<span className="text-orange-500">.</span></span>
                                 <p className="text-xs text-slate-500 -mt-1 font-semibold tracking-widest">SAI TIRUMALA CONCRETE</p>
                             </div>
                         </a>
@@ -33,6 +33,7 @@ const Header = () => {
                         <a href="#about" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">About</a>
                         <a href="#why-us" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Why Us</a>
                         <a href="#services" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Services</a>
+                        <a href="#clients" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Clients</a>
                         <a href="#gallery" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Gallery</a>
                         <a href="#blog" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Blog</a>
                         <a href="#contact" className="text-base text-slate-700 hover:text-orange-500 transition-colors font-medium">Contact</a>
@@ -52,6 +53,7 @@ const Header = () => {
                 <a href="#about" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">About</a>
                 <a href="#why-us" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Why Us</a>
                 <a href="#services" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Services</a>
+                <a href="#clients" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Clients</a>
                 <a href="#gallery" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Gallery</a>
                 <a href="#blog" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Blog</a>
                 <a href="#contact" className="block px-4 py-3 rounded-lg text-lg font-medium text-slate-700 hover:text-orange-500 hover:bg-slate-100">Contact</a>
