@@ -8,6 +8,7 @@ import Clients from './components/Clients';
 import Gallery from './components/Gallery';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
+import VisitPlants from "./components/VisitPlants";
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Gallery />
         <Blog />
         <Contact />
+        <VisitPlants />
       </main>
       <Footer />
     </div>

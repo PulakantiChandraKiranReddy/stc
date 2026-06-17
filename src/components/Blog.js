@@ -3,7 +3,7 @@ import React, { useState, useCallback } from 'react';
 const blogPosts = [
   {
     id: 'strong-foundation',
-    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80',
+    image: '/rmc4.png',
     title: 'The 5 Key Factors for a Strong Foundation',
     excerpt: 'Learn what it takes to pour a foundation that lasts a lifetime, from soil preparation to the perfect concrete mix.',
     content: `
@@ -19,7 +19,7 @@ At STC, we guide you through every stage, ensuring your foundation stands the te
   },
   {
     id: 'sustainable-concrete',
-    image: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80',
+    image: '/rmc2.png',
     title: 'Sustainable Concrete: Building a Greener Future',
     excerpt: 'Discover how our eco-friendly practices are changing the construction industry for the better.',
     content: `
@@ -34,7 +34,7 @@ By choosing STC, you're not just building for today—you're investing in a gree
   },
   {
     id: 'concrete-grades',
-    image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80',
+    image: '/rmc6.png',
     title: 'Understanding Concrete Grades: A Guide for Builders',
     excerpt: 'A deep dive into different concrete grades and how to choose the right one for your specific project needs.',
     content: `

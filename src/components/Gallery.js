@@ -1,12 +1,12 @@
 import React from 'react';
 
 const galleryImages = [
-  { src: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80', alt: 'Modern Concrete Plant' },
-  { src: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80', alt: 'Construction Site' },
-  { src: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80', alt: 'Industrial Project' },
-  { src: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80', alt: 'Batching Plant' },
-  { src: 'https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80', alt: 'Concrete Pouring' },
-  { src: 'https://images.unsplash.com/photo-1468421870903-4df1664ac249?auto=format&fit=crop&w=800&q=80', alt: 'Construction Equipment' },
+  { src:'/rmc1.png', alt: 'Modern Concrete Plant' },
+  { src: '/rmc2.png', alt: 'Construction Site' },
+  { src: '/rmc3.png', alt: 'Industrial Project' },
+  { src: '/rmc4.png', alt: 'Batching Plant' },
+  { src: '/rmc5.png', alt: 'Concrete Pouring' },
+  { src: '/rmc6.png', alt: 'Construction Equipment' },
 ];
 
 const Gallery = () => {

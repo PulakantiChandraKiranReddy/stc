@@ -99,7 +99,7 @@ const Contact = () => {
 
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-900">Call Us Directly</h4>
-                                <a href="tel:9542311666" className="text-2xl text-slate-700 hover:text-orange-500 transition-colors font-semibold">95423 11666</a>
+                                <a href="tel:9542411666" className="text-2xl text-slate-700 hover:text-orange-500 transition-colors font-semibold">95424 11666</a>
                             </div>
                         </div>
 
@@ -110,7 +110,28 @@ const Contact = () => {
 
                             <div>
                                 <h4 className="text-lg font-semibold text-slate-900">Our Locations</h4>
-                                <p className="text-2xl text-slate-700 font-semibold">Adibatla & Kandukur</p>
+                                {/* <p className="text-2xl text-slate-700 font-semibold">Adibatla & Kandukur</p> */}
+                                <p className="text-2xl text-slate-700 font-semibold">
+  <a
+    href="https://maps.app.goo.gl/ZQzonPhbYCpjiJ7k9"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-orange-500 hover:text-orange-600 hover:underline"
+  >
+    Adibatla
+  </a>
+
+  {" & "}
+
+  <a
+    href="https://maps.app.goo.gl/KaXYKj4AHbQQdTuk8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-orange-500 hover:text-orange-600 hover:underline"
+  >
+    Kandukur
+  </a>
+</p>
                             </div>
                         </div>
 

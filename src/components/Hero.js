@@ -5,13 +5,14 @@ const Hero = () => {
         <section className="relative min-h-[100dvh] sm:min-h-screen flex items-center justify-center text-center overflow-hidden bg-slate-200">
             {/* Full-cover background image: landscape fits desktop; on mobile (portrait) shows center and scales to cover */}
             <img
-                src="/stcBackground.jpg"
+                // src="/stcBackground.jpg"
+                src="/rmcBack.png"
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover object-center sm:object-center pointer-events-none select-none z-0"
                 aria-hidden
             />
             {/* Overlay so text stays readable on all screens */}
-            <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-white/75 to-white/90 z-[1]" />
+            <div className="absolute inset-0 bg-gradient-to-b from-white/40 via-white/90 to-white/20 z-[1]" />
             <div className="relative z-10 w-full max-w-[100vw] px-4 py-12 sm:py-16 box-border">
                 <h1 className="text-2xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold text-slate-900 tracking-tight leading-tight drop-shadow-lg animate-fade-in-up mb-4 sm:mb-8 break-words">
                     Building the Future
